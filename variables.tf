@@ -1,0 +1,11 @@
+variable "accesskey_id" {}
+variable "keyname" {}
+variable "secretkey" {}
+variable "region" {}
+variable "ami" {}
+variable "instance" {}
+variable "global_product" {}
+variable "global_environment" {}
+variable "vpc_id" {}
+variable "subnet_2b" {}
+variable "ec2_zone" {}
