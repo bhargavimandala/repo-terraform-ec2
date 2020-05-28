@@ -1,4 +1,5 @@
- resource "aws_instance" "ec2" {
+#ec2 server 
+resource "aws_instance" "ec2" {
   ami           = "${var.ami}"
   instance_type = "${var.instance}"
   key_name      = "${var.keyname}"
