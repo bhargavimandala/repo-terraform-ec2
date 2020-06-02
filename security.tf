@@ -1,7 +1,7 @@
- resource "aws_security_group" "ec2_sg" {
+resource "aws_security_group" "ec2_sg" {
   name        = "${var.global_product}.${var.global_environment}-ec2_sg"
   description = "Allow TLS inbound traffic"
-  vpc_id      = "${var.vpc_id}"
+  vpc_id      = "${aws_vpc.vpc.id}"
 
   ingress {
     description = "ec2 sg"

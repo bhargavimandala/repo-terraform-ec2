@@ -1,11 +1,13 @@
-accesskey_id = "AKIAJSCZTXE2WSGBIYMA" 
-keyname = "awskeys-2"
-secretkey = "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"
-region = "eu-west-2"
-ami="ami-0330ffc12d7224386"
-instance="t2.micro"
-global_product="mb"
-global_environment="dev"
-vpc_id="vpc-a55717cd"
-subnet_2b="subnet-e33e9baf"
-ec2_zone="eu-west-2b"
+keyname            = "awskeys-2"
+region             = "eu-west-2"
+ami                = "ami-0330ffc12d7224386"
+instance           = "t2.micro"
+global_product     = "mb"
+global_environment = "dev"
+#ec2_zone="eu-west-2b"
+device_names = [
+  "/dev/sdh",
+  "/dev/sdi",
+  "/dev/sdg"
+]
+availability_zones = ["eu-west-2a", "eu-west-2b", "eu-west-2c"]
