@@ -10,4 +10,4 @@ device_names = [
   "/dev/sdi",
   "/dev/sdg"
 ]
-availability_zones = ["eu-west-2a", "eu-west-2b", "eu-west-2c"]
+availability_zones = ["eu-west-2a", "eu-west-2b"]
